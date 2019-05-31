@@ -5,3 +5,10 @@ body {
 .navbar {
     padding: .5rem 0 0 0;
 }
+
+
+@media only screen and (max-width: 500px) {
+
+.logo, .nav-btns {
+    text-align: center!important;
+}
