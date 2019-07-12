@@ -1,3 +1,17 @@
+* {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.link-style {
+    color: black;
+}
+
+.logotype-style {
+    font-weight: 900;
+    letter-spacing: .25rem;
+    color: black;
+}
+
 body {
     background-color: white;
 }
@@ -6,9 +20,13 @@ body {
     padding: .5rem 0 0 0;
 }
 
-@media only screen and (max-width: 768px) {
+.foot-text {
+    font-size: .75rem;
+}
 
-    .logo, .nav-btns {
+@media only screen and (max-width: 435px) {
+
+    .logo, .nav-btns, h1 {
         text-align: center!important;
     }
 }
